@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/formulario.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- incorporamos las jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/additional-methods.js"></script>
+    <title>KLG Shoes - Registro</title>
+</head>
+
+<body class="cuerpo">
+    <header class="encabezado">
+        <div class="logo">
+            <a title="KLG Shoes" href="indice.html">
+                <img alt="KLG Shoes"  src="img/Logo.png" /></a>
+        </div>
+
+        <nav class="navbar navbar-light" style="background-color: #3E3BB5;">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Registrarse</a
+              >
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="container">
+        <!-- action es a quien va dirigido los datos-->
+        <form action="#" method="post" id="formulario_1">
+            <table class="table table-hover">
+                <tr>
+                    <td class="textos"> Ingrese su correo electronico: </td>
+                    <td class="txtBoxs"> <input  type="email" name="txtEmail" id="txtEmail" placeholder="Ingrese Email"> </td>
+                </tr>
+                <tr>
+                    <td class="textos" > Ingrese su nombre completo: </td>
+                    <td class="txtBoxs"> <input  type="text" name="txtNombre" id="txtNombre" placeholder="Ingrese Nombre"> </td>
+                </tr>
+                <tr>
+                        <td class="textos"> Ingrese su Rut: </td>
+                    <td class="txtBoxs"> <input  type="text" id="rut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
+                        <script src="js/validador.js"></script>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="textos"> Seleccione su fecha de nacimiento: </td>
+                    <td class="txtBoxs"> 
+                        <label></label>
+                        <input id= "fechaNac" type="date" name="fecha" max="2001-01-01">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="textos"> Seleccione su Cuidad: </td>
+                    <td class="txtBoxs">
+                        <select id="regiones"></select>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="textos"> Seleccione su Comuna: </td>
+                    <td class="txtBoxs">
+                        <select id="comunas"></select>
+                    </td>
+                </tr>
+
+            </table>
+
+            <div class = "boton">
+                <button type="submit"> Guardar </button>
+            </div>
+            
+            <br>
+        </form>
+        
+    </div>
+
+    <footer class="footer">
+
+            <div class="rsFooter">
+                <div class="logoRS">
+                    <img class="pngLogo" src="img/rrss/facebook.png" alt="#" >
+                </div>
+                <div class="logoRS">
+                    <img class="pngLogo" src="img/rrss/instagram.png" alt="#" >
+                </div>
+                <div class="logoRS">
+                    <img class="pngLogo" src="img/rrss/tumblr.png" alt="#" >
+                </div>
+                <div class="logoRS">
+                    <img class="pngLogo" src="img/rrss/twitter.png" alt="#" >
+                </div>
+            </div>
+        </footer>
+
+    <!-- incorporamos nuestros javascript para la validación-->
+    <script src="js/validador.js"></script>
+</body>
+
+</html>

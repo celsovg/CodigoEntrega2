@@ -1,0 +1,132 @@
+.body {
+    background-color: #3E3BB5;
+}
+
+.encabezado {
+    background-color: #3E3BB5;
+    display: flex;
+}
+
+.nav {
+    width: 370px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20%;
+    border-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.medio {
+    background-color: #3E3BB5;
+    width: 100%;
+    height: auto;
+    background-image: url(https://i.ibb.co/Pr7zVxx/fondo1.png);
+}
+
+.saludo {
+    text-align: center;
+    font-size: 50px;
+    background-color: #100f6d;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 8px;
+}
+
+.logo img {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.img:hover {
+    transform: scale(1.3);
+}
+
+.img {
+    width: 250px;
+    height: 260px;
+    transition: all 0.3s linear;
+}
+
+.fila1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.fila2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+}
+
+.producto {
+    border-color: black;
+    border-style: solid;
+    overflow: hidden;
+    height: 345px;
+    background-color: white;
+}
+
+.containerImg {
+    border-bottom: 5px;
+    overflow: hidden;
+}
+
+.datos {
+    width: auto;
+    height: 80px;
+    border-top: 4px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.nombreProducto {
+    height: 38px;
+    width: auto;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+.precioProducto {
+    height: 38px;
+    width: auto;
+    font-size: 23px;
+    border-top: 2px;
+    border-top-color: black;
+    border-top-style: solid;
+    text-align: center;
+}
+
+.footer {
+    background-color: #3E3BB5;
+    display: flex;
+}
+
+.rsFooter {
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    margin-left: 80%;
+}
+
+.logoRS {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pngLogo {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+}

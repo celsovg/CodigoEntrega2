@@ -1,0 +1,87 @@
+.cuerpo {
+    background-color: #3E3BB5;
+}
+
+.encabezado {
+    background-color: #3E3BB5;
+    display: flex;
+}
+
+.nav {
+    width: 370px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20%;
+    border-color: black;
+}
+
+.logo img {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.container {
+    background-color: #100f6d;
+}
+
+.table {
+    width: 50px;
+}
+
+#correo,
+#nombre,
+#regiones,
+#comunas,
+#rut {
+    width: 360px;
+}
+
+.textos {
+    color: white;
+}
+
+#fechaNac {
+    width: 357px;
+}
+
+#formulario_1 {
+    width: 100%;
+}
+
+.contenedor {
+    width: 1px;
+}
+
+.txtBoxs {
+    width: 370px;
+}
+
+.footer {
+    background-color: #3E3BB5;
+    display: flex;
+}
+
+.rsFooter {
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    margin-left: 80%;
+}
+
+.logoRS {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pngLogo {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+}
